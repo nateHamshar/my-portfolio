@@ -1,1 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    font-family: 'Anek Malayalam', sans-serif;
+}
 
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.name{
+    color:black;
+    font-size: 6rem;
+    font-weight: 400;
+}
+.my-name{
+    color: orangered
+}
+.desc{
+    font-size: 1.5rem;
+}
+
+.about{
+    background-color: rgb(2, 2, 53);
+    height: 100vh;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-header{
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: orangered;
+}
+.about-desc{
+    width: 70%;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-indent: 1rem;
+}
+
+.col-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.about-img{
+    width: 25vw;
+    height: 25vw;
+    border: 2px solid orangered;
+    border-radius: 50%;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    background-color: white;
+}
+.icon-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 65%;
+    margin: auto auto;
+}
+.icons{
+    font-size: 8rem;
+    color: rgb(2, 2, 53);
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: auto auto;
+}
+.skills-header{
+    color: orangered;
+    font-weight: 500;
+    font-size: 4rem;
+    width: 110%;
+}
+.skills-list{
+    list-style: square;
+    font-size: 2rem;
+    line-height: 5rem;
+}
+.gitLink{
+    color: orangered;
+    text-decoration: none;
+}
+
+
+.projects{
+    height: 100vh;
+    background-color: rgb(2, 2, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-header{
+    color: orangered;
+    font-weight: 500;
+    font-size: 5rem;
+    margin-top: 5%;
+}
+.project-container{
+    width: 20%
+}
+.project-title{
+    color:white;
+}
+.project-image{
+    width:200px;
+    height: 200px;
+    z-index: 5;
+    overflow: hidden;
+}
+.project-desc{
+    color: White;
+    font-size: 1.5rem;
+}
+.live-project{
+    color: orangered;
+}

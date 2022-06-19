@@ -1,0 +1,30 @@
+.Navbar{
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: sticky;
+    top: 0;
+}
+.nav-list{
+    margin-left: 10%;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    border-radius: 100vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: 300;
+}
+.nav-links{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+.nav-links:hover{
+    color: orangered
+}

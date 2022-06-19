@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function App() {
   return (
     <div className="App">
-      <div className="welcome">
+      <div className="welcome" id='welcome'>
         <h1 className='name'>Hi! I'm <span className="my-name">Nate</span>,</h1>
         <p className="desc">and I'm a front end web developer.</p>
       </div>
-      <div className="about">
+      <div className="about" id='about'>
         <div className="col-one">
           <h1 className='about-header'>About Me</h1>
           <p className="about-desc">I am a passionate front end developer, driven by building beautiful and functional website and web apps. I love to learn new things about coding, and push myself to learn more every day. And when I'm not coding, I have this crazy dog to play with!</p>
@@ -20,7 +20,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="skills">
+      <div className="skills" id='skills'>
         <div className="icon-list">
           <FontAwesomeIcon icon={faGithub} className="icons"/>
           <FontAwesomeIcon icon={faGitAlt} className="icons"/>
@@ -40,7 +40,7 @@ function App() {
           </ul>
         </div>
       </div>
-      <div className="projects">
+      <div className="projects" id='projects'>
         <h1 className="projects-header">Projects I've Worked On</h1>
         <div className='project-section'>
         <div className="project-container">

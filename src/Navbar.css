@@ -4,6 +4,7 @@
     padding-bottom: 1rem;
     position: sticky;
     top: 0;
+    animation: nav-intro 3000ms linear;
 }
 .nav-list{
     margin-left: 10%;
@@ -27,4 +28,19 @@
 }
 .nav-links:hover{
     color: orangered
+}
+
+@keyframes nav-intro {
+    0%{
+        opacity: 0%;
+        top: -25%;
+    }
+    50%{
+        opacity: 0%;
+        top: -25%;
+    }
+    100%{
+        opacity: 100%;
+        top:0;
+    }
 }

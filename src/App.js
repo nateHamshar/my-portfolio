@@ -42,13 +42,32 @@ function App() {
       </div>
       <div className="projects">
         <h1 className="projects-header">Projects I've Worked On</h1>
+        <div className='project-section'>
         <div className="project-container">
-          <h1 className="project-title">This is a project</h1>
           <img className="project-image" src={require("./images/temp-image.webp")} alt="temp img"/>
           <p className='project-desc'>This will be a small description of the project that will be here. Probably will include a reason for why the project was made. Then I will note the tools that were used.</p>
-          <a href="google.com" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
-          <a href="google.com" target="_blank" rel="noreferrer" className="project-code">Code</a>
+          <div className='links-div'>
+            <a href="google.com" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
+            <a href="google.com" target="_blank" rel="noreferrer" className="project-code">Source Code</a>
+          </div>
         </div>
+        <div className="project-container">
+          <img className="project-image" src={require("./images/temp-image.webp")} alt="temp img"/>
+          <p className='project-desc'>This will be a small description of the project that will be here. Probably will include a reason for why the project was made. Then I will note the tools that were used.</p>
+          <div className='links-div'>
+            <a href="google.com" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
+            <a href="google.com" target="_blank" rel="noreferrer" className="project-code">Source Code</a>
+          </div>
+        </div>
+        <div className="project-container">
+          <img className="project-image" src={require("./images/temp-image.webp")} alt="temp img"/>
+          <p className='project-desc'>This will be a small description of the project that will be here. Probably will include a reason for why the project was made. Then I will note the tools that were used.</p>
+          <div className='links-div'>
+            <a href="google.com" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
+            <a href="google.com" target="_blank" rel="noreferrer" className="project-code">Source Code</a>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   );

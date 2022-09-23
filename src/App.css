@@ -187,6 +187,7 @@
 .project-image{
     width:75%;
     height: 80%;
+    object-fit: auto;
     border: 4px solid orangered;
 }
 .project-desc{

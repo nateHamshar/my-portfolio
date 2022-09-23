@@ -44,24 +44,24 @@ function App() {
         <h1 className="projects-header">Projects I've Worked On</h1>
         <div className='project-section'>
         <div className="project-container">
-          <img className="project-image" src={require("./images/temp-image.webp")} alt="temp img"/>
-          <p className='project-desc'>This will be a small description of the project that will be here. Probably will include a reason for why the project was made. Then I will note the tools that were used.</p>
+          <img className="project-image" src={require("./images/business.jpg")} alt="temp img"/>
+          <p className='project-desc'>A business tracker that keeps track of sales and expenses. Created using React, and uses Firebase to store all of the data. </p>
           <div className='links-div'>
-            <a href="google.com" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
-            <a href="google.com" target="_blank" rel="noreferrer" className="project-code">Source Code</a>
+            <a href="https://natehamshar.github.io/business-tracker/" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
+            <a href="https://github.com/nateHamshar/business-tracker/" target="_blank" rel="noreferrer" className="project-code">Source Code</a>
+          </div>
+        </div>
+        <div className="project-container">
+          <img className="project-image" src={require("./images/pokedex.JPG")} alt="temp img"/>
+          <p className='project-desc'>This Pokedex allows a user to search for a pokemon and get some info about them. This is a React project, and uses a public API to get the data.</p>
+          <div className='links-div'>
+            <a href="https://natehamshar.github.io/offbrand-pokedex/" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
+            <a href="https://github.com/nateHamshar/offbrand-pokedex/" target="_blank" rel="noreferrer" className="project-code">Source Code</a>
           </div>
         </div>
         <div className="project-container">
           <img className="project-image" src={require("./images/temp-image.webp")} alt="temp img"/>
-          <p className='project-desc'>This will be a small description of the project that will be here. Probably will include a reason for why the project was made. Then I will note the tools that were used.</p>
-          <div className='links-div'>
-            <a href="google.com" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
-            <a href="google.com" target="_blank" rel="noreferrer" className="project-code">Source Code</a>
-          </div>
-        </div>
-        <div className="project-container">
-          <img className="project-image" src={require("./images/temp-image.webp")} alt="temp img"/>
-          <p className='project-desc'>This will be a small description of the project that will be here. Probably will include a reason for why the project was made. Then I will note the tools that were used.</p>
+          <p className='project-desc'>This will be a small description of the project that will be here. Probably will include a reason for why the project was made.</p>
           <div className='links-div'>
             <a href="google.com" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
             <a href="google.com" target="_blank" rel="noreferrer" className="project-code">Source Code</a>

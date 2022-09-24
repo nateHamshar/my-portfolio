@@ -12,7 +12,7 @@ function App() {
       <div className="about" id='about'>
         <div className="col-one">
           <h1 className='about-header'>About Me</h1>
-          <p className="about-desc">I am a passionate front end developer, driven by building beautiful and functional website and web apps. I love to learn new things about coding, and push myself to learn more every day. And when I'm not coding, I have this crazy dog to play with!</p>
+          <p className="about-desc">I am a passionate front end developer driven by building beautiful and functional websites and web apps. I love to learn new things about coding, and push myself to learn more every day. And when I'm not coding, I have this crazy dog to play with!</p>
         </div>
         <div className="col-two">
           <div className='image-container'>

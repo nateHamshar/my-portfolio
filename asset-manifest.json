@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.1be3fd90.css",
+    "main.js": "/my-portfolio/static/js/main.d6b82f37.js",
+    "static/media/hera.jpg": "/my-portfolio/static/media/hera.5a7da865c0388b24cecb.jpg",
+    "static/media/pokedex.JPG": "/my-portfolio/static/media/pokedex.ecaf519c69c699565211.JPG",
+    "static/media/business.jpg": "/my-portfolio/static/media/business.2db9ca6818024a4ec4c8.jpg",
+    "static/media/temp-image.webp": "/my-portfolio/static/media/temp-image.423b576189fe014e7593.webp",
+    "index.html": "/my-portfolio/index.html",
+    "main.1be3fd90.css.map": "/my-portfolio/static/css/main.1be3fd90.css.map",
+    "main.d6b82f37.js.map": "/my-portfolio/static/js/main.d6b82f37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1be3fd90.css",
+    "static/js/main.d6b82f37.js"
+  ]
+}

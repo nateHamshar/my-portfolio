@@ -45,7 +45,7 @@ function App() {
         <div className='project-section'>
         <div className="project-container">
           <img className="project-image" src={require("./images/business.jpg")} alt="business tracker"/>
-          <p className='project-desc'>A business tracker that keeps track of sales and expenses. This project was created using React, and uses Firebase to store all of the data. </p>
+          <p className='project-desc'>A business tracker, designed for desktop, that keeps track of sales and expenses. This project was created using React, and uses Firebase to store all of the data. </p>
           <div className='links-div'>
             <a href="https://natehamshar.github.io/business-tracker/" target="_blank" rel="noreferrer" className="live-project">Live Project</a>
             <a href="https://github.com/nateHamshar/business-tracker/" target="_blank" rel="noreferrer" className="project-code">Source Code</a>

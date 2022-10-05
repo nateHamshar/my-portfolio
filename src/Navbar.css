@@ -6,6 +6,8 @@
     top: 0;
     opacity: 0;
     animation: nav-intro 2000ms 2s forwards;
+    display: flex;
+    text-align: center;
 }
 .nav-list{
     margin-left: 10%;
@@ -13,6 +15,7 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 40%;
     border-radius: 100vw;
     padding-left: 1rem;
@@ -37,5 +40,21 @@
     }
     100%{
         opacity: 100%;
+    }
+}
+
+@media screen and (max-width:980px){
+    .nav-links{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:770px){
+    .nav-links{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:550px){
+    .Navbar{
+        display: none;
     }
 }

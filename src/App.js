@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="welcome" id='welcome'>
         <h1 className='name'>Hi! I'm <span className="my-name">Nate</span>,</h1>
-        <p className="desc">and I'm a front end web developer.</p>
+        <p className="desc">and I'm a web developer.</p>
       </div>
       <div className="about" id='about'>
         <div className="col-one">

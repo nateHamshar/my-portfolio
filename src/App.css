@@ -268,3 +268,70 @@
         text-indent: 1rem;
     }
 }
+
+@media screen and (max-width:960px) {
+    .project-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects{
+        height:auto;
+    }
+    .project-image{
+        height: 50vw;
+        width: 60vw;
+    }
+    .project-container{
+        margin-top: 3rem;
+    }
+    .projects-header{
+        font-size: 7vw;
+        margin-bottom: -4rem;
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width:850px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .about-header{
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    .about-img{
+        margin-top: 2rem;
+        border-radius: 15%;
+        height: 50vw;
+        width: 50vw;
+    }
+}
+@media screen and (max-width:760px){
+    .name{
+        font-size: 4rem;
+    }
+    .desc{
+        font-size: .75rem;
+        margin-top: -5rem;
+    }
+    .about-desc{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:670px){
+    .icon-list{
+        display: none;
+    }
+    .skills{
+        display: flex;
+    }
+    .skills-header{
+        margin: 0 auto;
+    }
+    .about-desc{
+        font-size: 1.75rem;
+        line-height: normal;
+        width: 90%;
+    }
+}
